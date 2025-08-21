@@ -1,0 +1,35 @@
+# GitHub Pages Configuration
+title: "Kindle Screensaver Converter"
+description: "Convert your images into perfect screensavers for any Kindle e-reader"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - node_modules
+  - .git
+  - .gitignore
+  - README.md
+
+# GitHub Pages settings
+github: [metadata]
+
+# Social links
+github_username: ""
+twitter_username: ""
+
+# SEO
+lang: en
+timezone: Europe/Rome
+
+# Navigation
+header_pages:
+  - index.html
